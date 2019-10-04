@@ -1,5 +1,4 @@
-# facebook-fbclid-parameter
-How to remove Facebook's fbclid parameter using mod_rewrite
+# How to remove Facebook's fbclid parameter using mod_rewrite
 
 With mod_rewrite, we can manipulate the query string and remove any occurrence of fbclid=whatever while preserving the remaining parameters. 
 
