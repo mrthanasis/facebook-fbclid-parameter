@@ -10,3 +10,16 @@ Unfortunately a side-affect of the unique URL structure is that your analytics p
 
 
 ****Please note that the above configuration uses the default WordPress .htaccess file. The rewrite rule must be placed before the WordPress rewrite rules (# BEGIN WordPress … # END WordPress).
+
+
+Luckily Google offers a simple feature for removing the fbclid and any other parameter from your analytics…
+
+# How to remove the fbclid parameter from Google Analytics
+
+Log in to **Google Analytics**.
+Go to the **Admin section**.
+Go to your **View** Settings.
+Add fbclid to the **Exclude URL Query Parameters** field.
+Hit **Save**
+
+So there you have it, a super simple fix for this annoying quirk in your analytics. You can also use this same technique if any other parameters are messing up your analytics views.
